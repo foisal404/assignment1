@@ -142,6 +142,41 @@ button.btn-secondary{
     
 }
 
+
+/* extra blog  */
+section.blog{
+    margin: 130px 170px;
+    padding: 60px 64px;
+    text-align: center;
+    background-color: #EAFDFC;
+    border-radius: 10px;
+}
+.blog h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    line-height: 47px;
+    color: #151414;;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.blog-card{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #151414;
+    border-radius: 5px;
+}
+p.blog-detais{
+    text-align: start;
+    padding: 2px 5px;
+}
+
+
 /* footer  */
 
 .footer-details{
