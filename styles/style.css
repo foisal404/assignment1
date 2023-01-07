@@ -27,8 +27,7 @@ header{
     align-items: flex-end; */
     text-align: end;
 }
-.top-header h1{
-    
+.top-header h1{  
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 24px;
