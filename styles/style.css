@@ -1,4 +1,5 @@
-/* Basic selectors */
+/* global selectors */
+
 *{
     margin: 0;
     padding: 0;
@@ -8,12 +9,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+
 /* header section */
 
 header{
     background: no-repeat  url("../images/banner/banner1.png");
     
 }
+
+/* top header  */
+
 .top-header{
     padding: 300px 230px;
     /* text-align: right;
@@ -35,6 +40,8 @@ header{
     line-height: 26px;
     margin-bottom: 32px;
 }
+
+/* primary button  */
 .btn-primary{
     color: white;
     background-color: orangered;
@@ -44,6 +51,8 @@ header{
     border-radius: 5px;
     border: 0px solid white;
 }
+
+
 
 /* main section  */
 
@@ -56,6 +65,7 @@ header{
     
 }
 
+/* top-banner details  */
 .tbanner-details{
     padding: 15px;
 
@@ -80,6 +90,7 @@ header{
     
 }
 
+/* top-banner task  */
 .tbanner-task{
     width: 350px;
     line-height: 26px;
@@ -93,6 +104,7 @@ header{
 }
 
 /* second banner section  */
+
 .second-banner {
     margin: 230px;
 }
@@ -103,6 +115,8 @@ header{
     color: #151414;
     text-align: center;
 }
+
+/* second-banner plans  */
 .sbanner-plans{
     margin-top: 55px;
     display: flex;
@@ -111,9 +125,10 @@ header{
     text-align: center;
 }
 .sbanner-plans div h1{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 25px;
     line-height: 35px;
+    
 }
 
 /* third-banner section  */
@@ -131,6 +146,8 @@ header{
     line-height: 47px;
     color: #FFFFFF;
 }
+
+/* button secondary  */
 button.btn-secondary{
     color: orangered;
     background-color: white;
@@ -144,11 +161,12 @@ button.btn-secondary{
 
 
 /* extra blog  */
+
 section.blog{
     margin: 130px 170px;
     padding: 60px 64px;
     text-align: center;
-    background-color: #EAFDFC;
+    background: linear-gradient(45deg , #e5e5e5 30%, #ECFBFF);
     border-radius: 10px;
 }
 .blog h1{
